@@ -83,36 +83,36 @@ VALUES (4, 4, 'Mel', 'Canina', 'Shih Tzu', '2024-01-05', 'F', 'Pequeno');
 -- ----------------------------------------------------------------------------
 
 -- Registro 15
-INSERT INTO Agendamento (ID_Agendamento, Data_Hora, status, ID_Servico, ID_Animal, ID_Profissional)
-VALUES (1, '2026-10-15 10:00:00', 'Concluído', 1, 1, 1);
+INSERT INTO Agendamento (ID_Agendamento, Data_Hora, status, ID_Servico, ID_Cliente, ID_Animal, ID_Profissional)
+VALUES (1, '2026-10-15 10:00:00', 'Concluído', 1, 1, 1, 1);
 
 -- Registro 16
-INSERT INTO Agendamento (ID_Agendamento, Data_Hora, status, ID_Servico, ID_Animal, ID_Profissional)
-VALUES (2, '2026-10-18 14:30:00', 'Concluído', 3, 3, 3);
+INSERT INTO Agendamento (ID_Agendamento, Data_Hora, status, ID_Servico, ID_Cliente, ID_Animal, ID_Profissional)
+VALUES (2, '2026-10-18 14:30:00', 'Concluído', 3, 3, 3, 3);
 
 -- Registro 17
-INSERT INTO Agendamento (ID_Agendamento, Data_Hora, status, ID_Servico, ID_Animal, ID_Profissional)
-VALUES (3, '2026-10-30 09:00:00', 'Agendado', 2, 4, 1);
+INSERT INTO Agendamento (ID_Agendamento, Data_Hora, status, ID_Servico, ID_Cliente, ID_Animal, ID_Profissional)
+VALUES (3, '2026-10-30 09:00:00', 'Agendado', 2, 4, 4, 1);
 
 -- ----------------------------------------------------------------------------
 -- Tabela: Historico_saude (Registros 18 e 19)
 -- ----------------------------------------------------------------------------
 
 -- Registro 18
-INSERT INTO Historico_saude (ID_historico, ID_animal, ID_Profissional, data_registro, tipo_registro, descricao)
-VALUES (1, 1, 1, '2026-10-15 10:45:00', 'Atendimento Clínico', 'Animal apresentou bom estado geral, peso 32kg, parâmetros vitais normais.');
+INSERT INTO Historico_saude (ID_historico, ID_animal, ID_Profissional, ID_Agendamento, data_registro, tipo_registro, descricao)
+VALUES (1, 1, 1, 1, '2026-10-15 10:45:00', 'Atendimento Clínico', 'Animal apresentou bom estado geral, peso 32kg, parâmetros vitais normais.');
 
 -- Registro 19
-INSERT INTO Historico_saude (ID_historico, ID_animal, ID_Profissional, data_registro, tipo_registro, descricao)
-VALUES (2, 3, 3, '2026-10-18 15:25:00', 'Consulta Especializada', 'Presença de dermatite alérgica leve nas patas. Prescrito shampoo terapêutico.');
+INSERT INTO Historico_saude (ID_historico, ID_animal, ID_Profissional, ID_Agendamento, data_registro, tipo_registro, descricao)
+VALUES (2, 3, 3, 2, '2026-10-18 15:25:00', 'Consulta Especializada', 'Presença de dermatite alérgica leve nas patas. Prescrito shampoo terapêutico.');
 
 -- ----------------------------------------------------------------------------
 -- Tabela: Anexo_midia (Registro 20)
 -- ----------------------------------------------------------------------------
 
 -- Registro 20
-INSERT INTO Anexo_midia (Id_anexo, id_historico, id_agendamento, url_midia, tipo_midia)
-VALUES (1, 2, 2, 'https://storage.unatoppet.com.br/exames/dermatite_max_20261018.jpg', 'imagem');
+INSERT INTO Anexo_midia (Id_anexo, id_historico, url_midia, tipo_midia)
+VALUES (1, 2, 'https://storage.unatoppet.com.br/exames/dermatite_max_20261018.jpg', 'imagem');
 -- ----------------------------------------------------------------------------
 -- 1. CLIENTES (Cadastros em Outubro e Novembro de 2026)
 -- ----------------------------------------------------------------------------
@@ -175,49 +175,49 @@ VALUES
 -- ----------------------------------------------------------------------------
 -- 5. AGENDAMENTOS (Passados e Futuros)
 -- ----------------------------------------------------------------------------
-INSERT INTO Agendamento (ID_Agendamento, Data_Hora, status, ID_Servico, ID_Animal, ID_Profissional)
+INSERT INTO Agendamento (ID_Agendamento, Data_Hora, status, ID_Servico, ID_Cliente, ID_Animal, ID_Profissional)
 VALUES 
-(1, '2026-10-15 10:00:00', 'Concluído', 1, 1, 1),   
-(2, '2026-10-18 14:30:00', 'Concluído', 3, 3, 3),   
-(3, '2026-10-30 09:00:00', 'Agendado', 2, 4, 1),    
-(4, '2026-10-05 11:00:00', 'Concluído', 4, 5, 1),   
-(5, '2026-10-12 15:00:00', 'Concluído', 5, 6, 4),   
-(6, '2026-10-22 09:30:00', 'Concluído', 6, 6, 5),   
-(7, '2026-11-03 14:00:00', 'Concluído', 7, 7, 1),   
-(8, '2026-11-10 10:30:00', 'Concluído', 4, 8, 2),   
-(9, '2026-11-18 13:30:00', 'Agendado', 1, 5, 1),    
-(10, '2026-11-20 16:00:00', 'Confirmado', 3, 7, 3), 
-(11, '2026-11-25 10:00:00', 'Agendado', 5, 9, 4),   
-(12, '2026-12-02 11:30:00', 'Agendado', 2, 8, 1),   
-(13, '2026-12-10 15:00:00', 'Agendado', 6, 6, 5),   
-(14, '2026-11-19 11:00:00', 'Concluído', 8, 10, 6), 
-(15, '2026-11-21 14:00:00', 'Concluído', 9, 2, 1),  
-(16, '2026-12-05 09:30:00', 'Agendado', 1, 10, 1),  
-(17, '2026-12-08 15:30:00', 'Confirmado', 4, 11, 2),
-(18, '2026-12-12 10:00:00', 'Agendado', 8, 3, 6),   
-(19, '2026-12-15 14:30:00', 'Agendado', 3, 11, 3);  
+(1, '2026-10-15 10:00:00', 'Concluído', 1, 1, 1, 1),   
+(2, '2026-10-18 14:30:00', 'Concluído', 3, 3, 3, 3),   
+(3, '2026-10-30 09:00:00', 'Agendado', 2, 4, 4, 1),    
+(4, '2026-10-05 11:00:00', 'Concluído', 4, 5, 5, 1),   
+(5, '2026-10-12 15:00:00', 'Concluído', 5, 6, 6, 4),   
+(6, '2026-10-22 09:30:00', 'Concluído', 6, 6, 6, 5),   
+(7, '2026-11-03 14:00:00', 'Concluído', 7, 7, 7, 1),   
+(8, '2026-11-10 10:30:00', 'Concluído', 4, 8, 8, 2),   
+(9, '2026-11-18 13:30:00', 'Agendado', 1, 5, 5, 1),    
+(10, '2026-11-20 16:00:00', 'Confirmado', 3, 7, 7, 3), 
+(11, '2026-11-25 10:00:00', 'Agendado', 5, 9, 9, 4),   
+(12, '2026-12-02 11:30:00', 'Agendado', 2, 8, 8, 1),   
+(13, '2026-12-10 15:00:00', 'Agendado', 6, 6, 6, 5),   
+(14, '2026-11-19 11:00:00', 'Concluído', 8, 10, 10, 6), 
+(15, '2026-11-21 14:00:00', 'Concluído', 9, 2, 2, 1),  
+(16, '2026-12-05 09:30:00', 'Agendado', 1, 10, 10, 1),  
+(17, '2026-12-08 15:30:00', 'Confirmado', 4, 11, 11, 2),
+(18, '2026-12-12 10:00:00', 'Agendado', 8, 3, 3, 6),   
+(19, '2026-12-15 14:30:00', 'Agendado', 3, 11, 11, 3);  
 -- ----------------------------------------------------------------------------
 -- 6. HISTÓRICO DE SAÚDE (Registros médicos)
 -- ----------------------------------------------------------------------------
-INSERT INTO Historico_saude (ID_historico, ID_animal, ID_Profissional, data_registro, tipo_registro, descricao)
+INSERT INTO Historico_saude (ID_historico, ID_animal, ID_Profissional, ID_Agendamento, data_registro, tipo_registro, descricao)
 VALUES 
-(1, 1, 1, '2026-10-15 10:45:00', 'Atendimento Clínico', 'Animal apresentou bom estado geral, peso 32kg, parâmetros vitais normais.'), 
-(2, 3, 3, '2026-10-18 15:25:00', 'Consulta Especializada', 'Presença de dermatite alérgica leve nas patas. Prescrito shampoo terapêutico.'), 
-(3, 5, 1, '2026-10-05 11:45:00', 'Atendimento Clínico', 'Gata levemente estressada no banho, mas sem alterações clínicas. Peso: 3.8kg.'), 
-(4, 6, 4, '2026-10-12 15:50:00', 'Consulta Oftalmológica', 'Constatada leve irritação conjuntival em ambos os olhos. Indicado colírio lubrificante por 7 dias.'), 
-(5, 6, 5, '2026-10-22 10:15:00', 'Exame Cardiológico', 'Ecocardiograma sem alterações estruturais significativas. Função miocárdica preservada.'), 
-(6, 7, 1, '2026-11-03 14:25:00', 'Vacinação', 'Aplicação de vacina antirrábica anual. Animal sem reações imediatas.'), 
-(7, 8, 2, '2026-11-10 11:15:00', 'Atendimento Estético', 'Realizado banho e tosa completa. Pelagem higienizada e sem parasitas.'), 
-(8, 10, 6, '2026-11-19 11:55:00', 'Sessão de Fisioterapia', 'Paciente apresentou melhora na mobilidade do membro posterior direito após leve entorse.'), 
-(9, 2, 1, '2026-11-21 15:00:00', 'Procedimento Odontológico', 'Realizada profilaxia dentária. Removido tártaro moderado nos molares. Gengiva saudável.'); 
+(1, 1, 1, 1, '2026-10-15 10:45:00', 'Atendimento Clínico', 'Animal apresentou bom estado geral, peso 32kg, parâmetros vitais normais.'), 
+(2, 3, 3, 2, '2026-10-18 15:25:00', 'Consulta Especializada', 'Presença de dermatite alérgica leve nas patas. Prescrito shampoo terapêutico.'), 
+(3, 5, 1, 4, '2026-10-05 11:45:00', 'Atendimento Clínico', 'Gata levemente estressada no banho, mas sem alterações clínicas. Peso: 3.8kg.'), 
+(4, 6, 4, 5, '2026-10-12 15:50:00', 'Consulta Oftalmológica', 'Constatada leve irritação conjuntival em ambos os olhos. Indicado colírio lubrificante por 7 dias.'), 
+(5, 6, 5, 6, '2026-10-22 10:15:00', 'Exame Cardiológico', 'Ecocardiograma sem alterações estruturais significativas. Função miocárdica preservada.'), 
+(6, 7, 1, 7, '2026-11-03 14:25:00', 'Vacinação', 'Aplicação de vacina antirrábica anual. Animal sem reações imediatas.'), 
+(7, 8, 2, 8, '2026-11-10 11:15:00', 'Atendimento Estético', 'Realizado banho e tosa completa. Pelagem higienizada e sem parasitas.'), 
+(8, 10, 6, 14, '2026-11-19 11:55:00', 'Sessão de Fisioterapia', 'Paciente apresentou melhora na mobilidade do membro posterior direito após leve entorse.'), 
+(9, 2, 1, 15, '2026-11-21 15:00:00', 'Procedimento Odontológico', 'Realizada profilaxia dentária. Removido tártaro moderado nos molares. Gengiva saudável.'); 
 
 -- ----------------------------------------------------------------------------
 -- 7. ANEXOS DE MÍDIA (Tabela: Anexo_midia)
 -- ----------------------------------------------------------------------------
-INSERT INTO Anexo_midia (Id_anexo, id_historico, id_agendamento, url_midia, tipo_midia)
+INSERT INTO Anexo_midia (Id_anexo, id_historico, url_midia, tipo_midia)
 VALUES 
-(1, 2, 2, 'https://storage.unatoppet.com.br/exames/dermatite_max_20261018.jpg', 'imagem'),
-(2, 4, 5, 'https://storage.unatoppet.com.br/exames/olho_zeus_20261012.jpg', 'imagem'),
-(3, 5, 6, 'https://storage.unatoppet.com.br/laudos/ecocardio_zeus_20261022.pdf', 'pdf'),
-(4, 7, 8, 'https://storage.unatoppet.com.br/fotos/balao_pos_banho_20261110.jpg', 'imagem'),
-(5, 9, 15, 'https://storage.unatoppet.com.br/exames/odonto_luna_pos_20261121.jpg', 'imagem');
+(1, 2, 'https://storage.unatoppet.com.br/exames/dermatite_max_20261018.jpg', 'imagem'),
+(2, 4, 'https://storage.unatoppet.com.br/exames/olho_zeus_20261012.jpg', 'imagem'),
+(3, 5, 'https://storage.unatoppet.com.br/laudos/ecocardio_zeus_20261022.pdf', 'pdf'),
+(4, 7, 'https://storage.unatoppet.com.br/fotos/balao_pos_banho_20261110.jpg', 'imagem'),
+(5, 9, 'https://storage.unatoppet.com.br/exames/odonto_luna_pos_20261121.jpg', 'imagem');

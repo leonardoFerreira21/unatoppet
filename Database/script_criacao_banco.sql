@@ -64,22 +64,39 @@ CREATE TABLE IF NOT EXISTS Animal (
         ON UPDATE CASCADE
 );
 
+-- Chave candidata (ID_animal, ID_cliente): referenciada pela FK composta de
+-- Agendamento, garantindo que o cliente do agendamento seja o tutor do animal.
+CREATE UNIQUE INDEX IF NOT EXISTS uq_animal_cliente ON Animal(ID_animal, ID_cliente);
+
 -- ----------------------------------------------------------------------------
 -- 5. Tabela: Agendamento
 -- Representa os agendamentos de serviços para um animal com um profissional.
--- Relacionamentos: Animal (1:N), Servico (1:N), Profissional (1:N).
+-- Relacionamentos (todos obrigatórios):
+--   Cliente      1:N Agendamento (vínculo direto com o tutor responsável)
+--   Animal       1:N Agendamento
+--   Servico      1:N Agendamento
+--   Profissional 1:N Agendamento
+-- A FK composta (ID_Animal, ID_Cliente) impede agendar um animal em nome de
+-- um cliente que não seja o seu tutor.
 -- ----------------------------------------------------------------------------
 CREATE TABLE IF NOT EXISTS Agendamento (
     ID_Agendamento INTEGER PRIMARY KEY AUTOINCREMENT,
     Data_Hora DATETIME NOT NULL,
     status VARCHAR(20) NOT NULL DEFAULT 'Agendado',
     ID_Servico INT NOT NULL,
+    ID_Cliente INT NOT NULL,
     ID_Animal INT NOT NULL,
     ID_Profissional INT NOT NULL,
     FOREIGN KEY (ID_Servico) REFERENCES Servico(Id_servico)
         ON DELETE RESTRICT
         ON UPDATE CASCADE,
+    FOREIGN KEY (ID_Cliente) REFERENCES Cliente(ID_Cliente)
+        ON DELETE RESTRICT
+        ON UPDATE CASCADE,
     FOREIGN KEY (ID_Animal) REFERENCES Animal(ID_animal)
+        ON DELETE RESTRICT
+        ON UPDATE CASCADE,
+    FOREIGN KEY (ID_Animal, ID_Cliente) REFERENCES Animal(ID_animal, ID_cliente)
         ON DELETE RESTRICT
         ON UPDATE CASCADE,
     FOREIGN KEY (ID_Profissional) REFERENCES Profissional(ID_Profissional)
@@ -87,15 +104,25 @@ CREATE TABLE IF NOT EXISTS Agendamento (
         ON UPDATE CASCADE
 );
 
+-- Chave candidata (ID_Agendamento, ID_Animal): referenciada pela FK composta
+-- de Historico_saude.
+CREATE UNIQUE INDEX IF NOT EXISTS uq_agendamento_animal ON Agendamento(ID_Agendamento, ID_Animal);
+
 -- ----------------------------------------------------------------------------
 -- 6. Tabela: Historico_saude
 -- Representa o histórico clínico/prontuário e atendimentos realizados no animal.
--- Relacionamentos: Animal (1:N), Profissional (1:N).
+-- Relacionamentos:
+--   Animal       1:N Historico_saude (obrigatório)
+--   Profissional 1:N Historico_saude (obrigatório)
+--   Agendamento  1:N Historico_saude (opcional - atendimento que originou o
+--                registro). A FK composta (ID_Agendamento, ID_animal) garante
+--                que o animal do histórico seja o mesmo do agendamento.
 -- ----------------------------------------------------------------------------
 CREATE TABLE IF NOT EXISTS Historico_saude (
     ID_historico INTEGER PRIMARY KEY AUTOINCREMENT,
     ID_animal INT NOT NULL,
     ID_Profissional INT NOT NULL,
+    ID_Agendamento INT,
     data_registro DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
     tipo_registro VARCHAR(30),
     descricao TEXT NOT NULL,
@@ -104,24 +131,25 @@ CREATE TABLE IF NOT EXISTS Historico_saude (
         ON UPDATE CASCADE,
     FOREIGN KEY (ID_Profissional) REFERENCES Profissional(ID_Profissional)
         ON DELETE RESTRICT
+        ON UPDATE CASCADE,
+    FOREIGN KEY (ID_Agendamento, ID_animal) REFERENCES Agendamento(ID_Agendamento, ID_Animal)
+        ON DELETE RESTRICT
         ON UPDATE CASCADE
 );
 
 -- ----------------------------------------------------------------------------
 -- 7. Tabela: Anexo_midia
--- Armazena referências (URLs/caminhos) de arquivos de mídia anexados a um
--- registro de histórico de saúde e/ou agendamento.
+-- Armazena referências (URLs/caminhos) de arquivos de mídia (exames, laudos,
+-- fotos) anexados a um registro de histórico de saúde.
+-- Relacionamento: Historico_saude 1:N Anexo_midia (obrigatório).
+-- O agendamento relacionado é obtido via Historico_saude.ID_Agendamento.
 -- ----------------------------------------------------------------------------
 CREATE TABLE IF NOT EXISTS Anexo_midia (
     Id_anexo INTEGER PRIMARY KEY AUTOINCREMENT,
-    id_historico INT,
-    id_agendamento INT,
+    id_historico INT NOT NULL,
     url_midia VARCHAR(255) NOT NULL,
     tipo_midia VARCHAR(10),
     FOREIGN KEY (id_historico) REFERENCES Historico_saude(ID_historico)
-        ON DELETE RESTRICT
-        ON UPDATE CASCADE,
-    FOREIGN KEY (id_agendamento) REFERENCES Agendamento(ID_Agendamento)
         ON DELETE RESTRICT
         ON UPDATE CASCADE
 );
@@ -131,9 +159,18 @@ CREATE TABLE IF NOT EXISTS Anexo_midia (
 -- ----------------------------------------------------------------------------
 CREATE INDEX IF NOT EXISTS idx_animal_cliente ON Animal(ID_cliente);
 CREATE INDEX IF NOT EXISTS idx_agendamento_data ON Agendamento(Data_Hora);
+CREATE INDEX IF NOT EXISTS idx_agendamento_cliente ON Agendamento(ID_Cliente);
+CREATE INDEX IF NOT EXISTS idx_agendamento_animal ON Agendamento(ID_Animal, ID_Cliente);
+CREATE INDEX IF NOT EXISTS idx_agendamento_servico ON Agendamento(ID_Servico);
 CREATE INDEX IF NOT EXISTS idx_agendamento_profissional ON Agendamento(ID_Profissional);
-CREATE INDEX IF NOT EXISTS idx_agendamento_animal ON Agendamento(ID_Animal);
 CREATE INDEX IF NOT EXISTS idx_historico_animal ON Historico_saude(ID_animal);
+CREATE INDEX IF NOT EXISTS idx_historico_profissional ON Historico_saude(ID_Profissional);
+CREATE INDEX IF NOT EXISTS idx_historico_agendamento ON Historico_saude(ID_Agendamento, ID_animal);
+CREATE INDEX IF NOT EXISTS idx_anexo_historico ON Anexo_midia(id_historico);
+
+-- Um profissional não pode ter dois agendamentos ativos no mesmo horário
+CREATE UNIQUE INDEX IF NOT EXISTS uq_agendamento_profissional_horario
+    ON Agendamento(ID_Profissional, Data_Hora) WHERE status <> 'Cancelado';
 
 -- ----------------------------------------------------------------------------
 -- Triggers de Proteção: Garantir que o banco opere apenas para

@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2020" height="1020" viewBox="0 0 2020 1020">
+<rect x="0" y="0" width="2020" height="1020" fill="#f8fafc"/>
+<text x="60" y="55" font-family="DejaVu Sans" font-size="28" font-weight="bold" font-style="normal" fill="#1e3a5f" text-anchor="start">DER - Clínica Veterinária UnaTopPet (v2)</text>
+<text x="60" y="85" font-family="DejaVu Sans" font-size="15" font-weight="normal" font-style="normal" fill="#475569" text-anchor="start">Notação pé de galinha · gerado a partir do esquema de clinica_veterinaria.db</text>
+<polyline points="430,210 580,210" fill="none" stroke="#334155" stroke-width="2"/>
+<line x1="440.0" y1="219.0" x2="440.0" y2="201.0" stroke="#334155" stroke-width="2"/>
+<line x1="446.0" y1="219.0" x2="446.0" y2="201.0" stroke="#334155" stroke-width="2"/>
+<line x1="562.0" y1="210.0" x2="580.0" y2="221.0" stroke="#334155" stroke-width="2"/>
+<line x1="562.0" y1="210.0" x2="580.0" y2="210.0" stroke="#334155" stroke-width="2"/>
+<line x1="562.0" y1="210.0" x2="580.0" y2="199.0" stroke="#334155" stroke-width="2"/>
+<circle cx="554.0" cy="210.0" r="6" fill="#ffffff" stroke="#334155" stroke-width="2"/>
+<rect x="475.2" y="175" width="59.599999999999994" height="20" rx="4" fill="#ffffff" stroke="#334155" stroke-width="1"/>
+<text x="505" y="190" font-family="DejaVu Sans" font-size="13" font-weight="normal" font-style="italic" fill="#334155" text-anchor="middle">possui</text>
+<polyline points="950,210 1100,210" fill="none" stroke="#334155" stroke-width="2"/>
+<line x1="960.0" y1="219.0" x2="960.0" y2="201.0" stroke="#334155" stroke-width="2"/>
+<line x1="966.0" y1="219.0" x2="966.0" y2="201.0" stroke="#334155" stroke-width="2"/>
+<line x1="1082.0" y1="210.0" x2="1100.0" y2="221.0" stroke="#334155" stroke-width="2"/>
+<line x1="1082.0" y1="210.0" x2="1100.0" y2="210.0" stroke="#334155" stroke-width="2"/>
+<line x1="1082.0" y1="210.0" x2="1100.0" y2="199.0" stroke="#334155" stroke-width="2"/>
+<circle cx="1074.0" cy="210.0" r="6" fill="#ffffff" stroke="#334155" stroke-width="2"/>
+<rect x="995.2" y="175" width="59.599999999999994" height="20" rx="4" fill="#ffffff" stroke="#334155" stroke-width="1"/>
+<text x="1025" y="190" font-family="DejaVu Sans" font-size="13" font-weight="normal" font-style="italic" fill="#334155" text-anchor="middle">possui</text>
+<polyline points="1470,190 1620,190" fill="none" stroke="#334155" stroke-width="2"/>
+<line x1="1480.0" y1="199.0" x2="1480.0" y2="181.0" stroke="#334155" stroke-width="2"/>
+<line x1="1486.0" y1="199.0" x2="1486.0" y2="181.0" stroke="#334155" stroke-width="2"/>
+<line x1="1602.0" y1="190.0" x2="1620.0" y2="201.0" stroke="#334155" stroke-width="2"/>
+<line x1="1602.0" y1="190.0" x2="1620.0" y2="190.0" stroke="#334155" stroke-width="2"/>
+<line x1="1602.0" y1="190.0" x2="1620.0" y2="179.0" stroke="#334155" stroke-width="2"/>
+<circle cx="1594.0" cy="190.0" r="6" fill="#ffffff" stroke="#334155" stroke-width="2"/>
+<rect x="1515.2" y="155" width="59.599999999999994" height="20" rx="4" fill="#ffffff" stroke="#334155" stroke-width="1"/>
+<text x="1545" y="170" font-family="DejaVu Sans" font-size="13" font-weight="normal" font-style="italic" fill="#334155" text-anchor="middle">contém</text>
+<polyline points="300,355 300,610 580,610" fill="none" stroke="#15803d" stroke-width="2"/>
+<line x1="291.0" y1="365.0" x2="309.0" y2="365.0" stroke="#15803d" stroke-width="2"/>
+<line x1="291.0" y1="371.0" x2="309.0" y2="371.0" stroke="#15803d" stroke-width="2"/>
+<line x1="562.0" y1="610.0" x2="580.0" y2="621.0" stroke="#15803d" stroke-width="2"/>
+<line x1="562.0" y1="610.0" x2="580.0" y2="610.0" stroke="#15803d" stroke-width="2"/>
+<line x1="562.0" y1="610.0" x2="580.0" y2="599.0" stroke="#15803d" stroke-width="2"/>
+<circle cx="554.0" cy="610.0" r="6" fill="#ffffff" stroke="#15803d" stroke-width="2"/>
+<rect x="262.6" y="457" width="74.8" height="20" rx="4" fill="#ffffff" stroke="#15803d" stroke-width="1"/>
+<text x="300" y="472" font-family="DejaVu Sans" font-size="13" font-weight="normal" font-style="italic" fill="#15803d" text-anchor="middle">solicita</text>
+<polyline points="430,740 580,740" fill="none" stroke="#334155" stroke-width="2"/>
+<line x1="440.0" y1="749.0" x2="440.0" y2="731.0" stroke="#334155" stroke-width="2"/>
+<line x1="446.0" y1="749.0" x2="446.0" y2="731.0" stroke="#334155" stroke-width="2"/>
+<line x1="562.0" y1="740.0" x2="580.0" y2="751.0" stroke="#334155" stroke-width="2"/>
+<line x1="562.0" y1="740.0" x2="580.0" y2="740.0" stroke="#334155" stroke-width="2"/>
+<line x1="562.0" y1="740.0" x2="580.0" y2="729.0" stroke="#334155" stroke-width="2"/>
+<circle cx="554.0" cy="740.0" r="6" fill="#ffffff" stroke="#334155" stroke-width="2"/>
+<rect x="448.6" y="705" width="112.8" height="20" rx="4" fill="#ffffff" stroke="#334155" stroke-width="1"/>
+<text x="505" y="720" font-family="DejaVu Sans" font-size="13" font-weight="normal" font-style="italic" fill="#334155" text-anchor="middle">é prestado em</text>
+<polyline points="765,382 765,560" fill="none" stroke="#334155" stroke-width="2"/>
+<line x1="756.0" y1="392.0" x2="774.0" y2="392.0" stroke="#334155" stroke-width="2"/>
+<line x1="756.0" y1="398.0" x2="774.0" y2="398.0" stroke="#334155" stroke-width="2"/>
+<line x1="765.0" y1="542.0" x2="754.0" y2="560.0" stroke="#334155" stroke-width="2"/>
+<line x1="765.0" y1="542.0" x2="765.0" y2="560.0" stroke="#334155" stroke-width="2"/>
+<line x1="765.0" y1="542.0" x2="776.0" y2="560.0" stroke="#334155" stroke-width="2"/>
+<circle cx="765.0" cy="534.0" r="6" fill="#ffffff" stroke="#334155" stroke-width="2"/>
+<rect x="708.6" y="457" width="112.8" height="20" rx="4" fill="#ffffff" stroke="#334155" stroke-width="1"/>
+<text x="765" y="472" font-family="DejaVu Sans" font-size="13" font-weight="normal" font-style="italic" fill="#334155" text-anchor="middle">é atendido em</text>
+<polyline points="1100,740 950,740" fill="none" stroke="#334155" stroke-width="2"/>
+<line x1="1090.0" y1="731.0" x2="1090.0" y2="749.0" stroke="#334155" stroke-width="2"/>
+<line x1="1084.0" y1="731.0" x2="1084.0" y2="749.0" stroke="#334155" stroke-width="2"/>
+<line x1="968.0" y1="740.0" x2="950.0" y2="729.0" stroke="#334155" stroke-width="2"/>
+<line x1="968.0" y1="740.0" x2="950.0" y2="740.0" stroke="#334155" stroke-width="2"/>
+<line x1="968.0" y1="740.0" x2="950.0" y2="751.0" stroke="#334155" stroke-width="2"/>
+<circle cx="976.0" cy="740.0" r="6" fill="#ffffff" stroke="#334155" stroke-width="2"/>
+<rect x="991.4" y="705" width="67.19999999999999" height="20" rx="4" fill="#ffffff" stroke="#334155" stroke-width="1"/>
+<text x="1025" y="720" font-family="DejaVu Sans" font-size="13" font-weight="normal" font-style="italic" fill="#334155" text-anchor="middle">realiza</text>
+<polyline points="1285,640 1285,355" fill="none" stroke="#334155" stroke-width="2"/>
+<line x1="1294.0" y1="630.0" x2="1276.0" y2="630.0" stroke="#334155" stroke-width="2"/>
+<line x1="1294.0" y1="624.0" x2="1276.0" y2="624.0" stroke="#334155" stroke-width="2"/>
+<line x1="1285.0" y1="373.0" x2="1296.0" y2="355.0" stroke="#334155" stroke-width="2"/>
+<line x1="1285.0" y1="373.0" x2="1285.0" y2="355.0" stroke="#334155" stroke-width="2"/>
+<line x1="1285.0" y1="373.0" x2="1274.0" y2="355.0" stroke="#334155" stroke-width="2"/>
+<circle cx="1285.0" cy="381.0" r="6" fill="#ffffff" stroke="#334155" stroke-width="2"/>
+<rect x="1247.6" y="487" width="74.8" height="20" rx="4" fill="#ffffff" stroke="#334155" stroke-width="1"/>
+<text x="1285" y="502" font-family="DejaVu Sans" font-size="13" font-weight="normal" font-style="italic" fill="#334155" text-anchor="middle">registra</text>
+<polyline points="950,640 1025,640 1025,300 1100,300" fill="none" stroke="#15803d" stroke-width="2" stroke-dasharray="8,5"/>
+<line x1="960.0" y1="649.0" x2="960.0" y2="631.0" stroke="#15803d" stroke-width="2"/>
+<circle cx="974.0" cy="640.0" r="6" fill="#ffffff" stroke="#15803d" stroke-width="2"/>
+<line x1="1082.0" y1="300.0" x2="1100.0" y2="311.0" stroke="#15803d" stroke-width="2"/>
+<line x1="1082.0" y1="300.0" x2="1100.0" y2="300.0" stroke="#15803d" stroke-width="2"/>
+<line x1="1082.0" y1="300.0" x2="1100.0" y2="289.0" stroke="#15803d" stroke-width="2"/>
+<circle cx="1074.0" cy="300.0" r="6" fill="#ffffff" stroke="#15803d" stroke-width="2"/>
+<rect x="991.4" y="457" width="67.19999999999999" height="20" rx="4" fill="#ffffff" stroke="#15803d" stroke-width="1"/>
+<text x="1025" y="472" font-family="DejaVu Sans" font-size="13" font-weight="normal" font-style="italic" fill="#15803d" text-anchor="middle">origina</text>
+<rect x="64" y="124" width="370" height="235" rx="8" fill="#cbd5e1"/>
+<rect x="60" y="120" width="370" height="235" rx="8" fill="#ffffff" stroke="#1e3a5f" stroke-width="2"/>
+<rect x="60" y="120" width="370" height="38" rx="8" fill="#1e3a5f"/>
+<rect x="60" y="148" width="370" height="10" fill="#1e3a5f"/>
+<text x="245.0" y="146" font-family="DejaVu Sans" font-size="18" font-weight="bold" font-style="normal" fill="#ffffff" text-anchor="middle">Cliente</text>
+<rect x="70" y="164" width="32" height="18" rx="4" fill="#b45309"/>
+<text x="86" y="178" font-family="DejaVu Sans" font-size="11" font-weight="bold" font-style="normal" fill="#ffffff" text-anchor="middle">PK</text>
+<text x="112" y="178" font-family="DejaVu Sans" font-size="15" font-weight="bold" font-style="normal" fill="#111827" text-anchor="start">ID_Cliente</text>
+<text x="418" y="178" font-family="DejaVu Sans" font-size="13" font-weight="normal" font-style="normal" fill="#6b7280" text-anchor="end">INTEGER</text>
+<text x="112" y="205" font-family="DejaVu Sans" font-size="15" font-weight="normal" font-style="normal" fill="#111827" text-anchor="start">Nome</text>
+<text x="418" y="205" font-family="DejaVu Sans" font-size="13" font-weight="normal" font-style="normal" fill="#6b7280" text-anchor="end">VARCHAR(100)</text>
+<text x="112" y="232" font-family="DejaVu Sans" font-size="15" font-weight="normal" font-style="italic" fill="#6b7280" text-anchor="start">Endereco ?</text>
+<text x="418" y="232" font-family="DejaVu Sans" font-size="13" font-weight="normal" font-style="normal" fill="#6b7280" text-anchor="end">VARCHAR(150)</text>
+<text x="112" y="259" font-family="DejaVu Sans" font-size="15" font-weight="normal" font-style="normal" fill="#111827" text-anchor="start">Telefone</text>
+<text x="418" y="259" font-family="DejaVu Sans" font-size="13" font-weight="normal" font-style="normal" fill="#6b7280" text-anchor="end">VARCHAR(20)</text>
+<rect x="70" y="272" width="32" height="18" rx="4" fill="#7c3aed"/>
+<text x="86" y="286" font-family="DejaVu Sans" font-size="11" font-weight="bold" font-style="normal" fill="#ffffff" text-anchor="middle">UQ</text>
+<text x="112" y="286" font-family="DejaVu Sans" font-size="15" font-weight="normal" font-style="normal" fill="#111827" text-anchor="start">CPF</text>
+<text x="418" y="286" font-family="DejaVu Sans" font-size="13" font-weight="normal" font-style="normal" fill="#6b7280" text-anchor="end">VARCHAR(14)</text>
+<text x="112" y="313" font-family="DejaVu Sans" font-size="15" font-weight="normal" font-style="italic" fill="#6b7280" text-anchor="start">Email ?</text>
+<text x="418" y="313" font-family="DejaVu Sans" font-size="13" font-weight="normal" font-style="normal" fill="#6b7280" text-anchor="end">VARCHAR(100)</text>
+<text x="112" y="340" font-family="DejaVu Sans" font-size="15" font-weight="normal" font-style="italic" fill="#6b7280" text-anchor="start">Data_Cadastro ?</text>
+<text x="418" y="340" font-family="DejaVu Sans" font-size="13" font-weight="normal" font-style="normal" fill="#6b7280" text-anchor="end">DATETIME</text>
+<rect x="584" y="124" width="370" height="262" rx="8" fill="#cbd5e1"/>
+<rect x="580" y="120" width="370" height="262" rx="8" fill="#ffffff" stroke="#1e3a5f" stroke-width="2"/>
+<rect x="580" y="120" width="370" height="38" rx="8" fill="#1e3a5f"/>
+<rect x="580" y="148" width="370" height="10" fill="#1e3a5f"/>
+<text x="765.0" y="146" font-family="DejaVu Sans" font-size="18" font-weight="bold" font-style="normal" fill="#ffffff" text-anchor="middle">Animal</text>
+<rect x="590" y="164" width="32" height="18" rx="4" fill="#b45309"/>
+<text x="606" y="178" font-family="DejaVu Sans" font-size="11" font-weight="bold" font-style="normal" fill="#ffffff" text-anchor="middle">PK</text>
+<text x="632" y="178" font-family="DejaVu Sans" font-size="15" font-weight="bold" font-style="normal" fill="#111827" text-anchor="start">ID_animal</text>
+<text x="938" y="178" font-family="DejaVu Sans" font-size="13" font-weight="normal" font-style="normal" fill="#6b7280" text-anchor="end">INTEGER</text>
+<rect x="590" y="191" width="32" height="18" rx="4" fill="#1d4ed8"/>
+<text x="606" y="205" font-family="DejaVu Sans" font-size="11" font-weight="bold" font-style="normal" fill="#ffffff" text-anchor="middle">FK</text>
+<text x="632" y="205" font-family="DejaVu Sans" font-size="15" font-weight="normal" font-style="normal" fill="#111827" text-anchor="start">ID_cliente</text>
+<text x="938" y="205" font-family="DejaVu Sans" font-size="13" font-weight="normal" font-style="normal" fill="#6b7280" text-anchor="end">INT</text>
+<text x="632" y="232" font-family="DejaVu Sans" font-size="15" font-weight="normal" font-style="normal" fill="#111827" text-anchor="start">nome</text>
+<text x="938" y="232" font-family="DejaVu Sans" font-size="13" font-weight="normal" font-style="normal" fill="#6b7280" text-anchor="end">VARCHAR(50)</text>
+<text x="632" y="259" font-family="DejaVu Sans" font-size="15" font-weight="normal" font-style="normal" fill="#111827" text-anchor="start">especie</text>
+<text x="938" y="259" font-family="DejaVu Sans" font-size="13" font-weight="normal" font-style="normal" fill="#6b7280" text-anchor="end">VARCHAR(30)</text>
+<text x="632" y="286" font-family="DejaVu Sans" font-size="15" font-weight="normal" font-style="normal" fill="#111827" text-anchor="start">raca</text>
+<text x="938" y="286" font-family="DejaVu Sans" font-size="13" font-weight="normal" font-style="normal" fill="#6b7280" text-anchor="end">VARCHAR(50)</text>
+<text x="632" y="313" font-family="DejaVu Sans" font-size="15" font-weight="normal" font-style="italic" fill="#6b7280" text-anchor="start">data_nascimento ?</text>
+<text x="938" y="313" font-family="DejaVu Sans" font-size="13" font-weight="normal" font-style="normal" fill="#6b7280" text-anchor="end">DATE</text>
+<text x="632" y="340" font-family="DejaVu Sans" font-size="15" font-weight="normal" font-style="italic" fill="#6b7280" text-anchor="start">sexo ?</text>
+<text x="938" y="340" font-family="DejaVu Sans" font-size="13" font-weight="normal" font-style="normal" fill="#6b7280" text-anchor="end">CHAR(1)</text>
+<text x="632" y="367" font-family="DejaVu Sans" font-size="15" font-weight="normal" font-style="italic" fill="#6b7280" text-anchor="start">porte ?</text>
+<text x="938" y="367" font-family="DejaVu Sans" font-size="13" font-weight="normal" font-style="normal" fill="#6b7280" text-anchor="end">VARCHAR(20)</text>
+<rect x="1104" y="124" width="370" height="235" rx="8" fill="#cbd5e1"/>
+<rect x="1100" y="120" width="370" height="235" rx="8" fill="#ffffff" stroke="#1e3a5f" stroke-width="2"/>
+<rect x="1100" y="120" width="370" height="38" rx="8" fill="#1e3a5f"/>
+<rect x="1100" y="148" width="370" height="10" fill="#1e3a5f"/>
+<text x="1285.0" y="146" font-family="DejaVu Sans" font-size="18" font-weight="bold" font-style="normal" fill="#ffffff" text-anchor="middle">Historico_saude</text>
+<rect x="1110" y="164" width="32" height="18" rx="4" fill="#b45309"/>
+<text x="1126" y="178" font-family="DejaVu Sans" font-size="11" font-weight="bold" font-style="normal" fill="#ffffff" text-anchor="middle">PK</text>
+<text x="1152" y="178" font-family="DejaVu Sans" font-size="15" font-weight="bold" font-style="normal" fill="#111827" text-anchor="start">ID_historico</text>
+<text x="1458" y="178" font-family="DejaVu Sans" font-size="13" font-weight="normal" font-style="normal" fill="#6b7280" text-anchor="end">INTEGER</text>
+<rect x="1110" y="191" width="32" height="18" rx="4" fill="#1d4ed8"/>
+<text x="1126" y="205" font-family="DejaVu Sans" font-size="11" font-weight="bold" font-style="normal" fill="#ffffff" text-anchor="middle">FK</text>
+<text x="1152" y="205" font-family="DejaVu Sans" font-size="15" font-weight="normal" font-style="normal" fill="#111827" text-anchor="start">ID_animal</text>
+<text x="1458" y="205" font-family="DejaVu Sans" font-size="13" font-weight="normal" font-style="normal" fill="#6b7280" text-anchor="end">INT</text>
+<rect x="1110" y="218" width="32" height="18" rx="4" fill="#1d4ed8"/>
+<text x="1126" y="232" font-family="DejaVu Sans" font-size="11" font-weight="bold" font-style="normal" fill="#ffffff" text-anchor="middle">FK</text>
+<text x="1152" y="232" font-family="DejaVu Sans" font-size="15" font-weight="normal" font-style="normal" fill="#111827" text-anchor="start">ID_Profissional</text>
+<text x="1458" y="232" font-family="DejaVu Sans" font-size="13" font-weight="normal" font-style="normal" fill="#6b7280" text-anchor="end">INT</text>
+<rect x="1102" y="241" width="366" height="25" fill="#dcfce7"/>
+<rect x="1110" y="245" width="32" height="18" rx="4" fill="#1d4ed8"/>
+<text x="1126" y="259" font-family="DejaVu Sans" font-size="11" font-weight="bold" font-style="normal" fill="#ffffff" text-anchor="middle">FK</text>
+<text x="1152" y="259" font-family="DejaVu Sans" font-size="15" font-weight="normal" font-style="italic" fill="#6b7280" text-anchor="start">ID_Agendamento ?</text>
+<text x="1458" y="259" font-family="DejaVu Sans" font-size="13" font-weight="normal" font-style="normal" fill="#6b7280" text-anchor="end">INT</text>
+<text x="1152" y="286" font-family="DejaVu Sans" font-size="15" font-weight="normal" font-style="normal" fill="#111827" text-anchor="start">data_registro</text>
+<text x="1458" y="286" font-family="DejaVu Sans" font-size="13" font-weight="normal" font-style="normal" fill="#6b7280" text-anchor="end">DATETIME</text>
+<text x="1152" y="313" font-family="DejaVu Sans" font-size="15" font-weight="normal" font-style="italic" fill="#6b7280" text-anchor="start">tipo_registro ?</text>
+<text x="1458" y="313" font-family="DejaVu Sans" font-size="13" font-weight="normal" font-style="normal" fill="#6b7280" text-anchor="end">VARCHAR(30)</text>
+<text x="1152" y="340" font-family="DejaVu Sans" font-size="15" font-weight="normal" font-style="normal" fill="#111827" text-anchor="start">descricao</text>
+<text x="1458" y="340" font-family="DejaVu Sans" font-size="13" font-weight="normal" font-style="normal" fill="#6b7280" text-anchor="end">TEXT</text>
+<rect x="1624" y="124" width="370" height="154" rx="8" fill="#cbd5e1"/>
+<rect x="1620" y="120" width="370" height="154" rx="8" fill="#ffffff" stroke="#1e3a5f" stroke-width="2"/>
+<rect x="1620" y="120" width="370" height="38" rx="8" fill="#1e3a5f"/>
+<rect x="1620" y="148" width="370" height="10" fill="#1e3a5f"/>
+<text x="1805.0" y="146" font-family="DejaVu Sans" font-size="18" font-weight="bold" font-style="normal" fill="#ffffff" text-anchor="middle">Anexo_midia</text>
+<rect x="1630" y="164" width="32" height="18" rx="4" fill="#b45309"/>
+<text x="1646" y="178" font-family="DejaVu Sans" font-size="11" font-weight="bold" font-style="normal" fill="#ffffff" text-anchor="middle">PK</text>
+<text x="1672" y="178" font-family="DejaVu Sans" font-size="15" font-weight="bold" font-style="normal" fill="#111827" text-anchor="start">Id_anexo</text>
+<text x="1978" y="178" font-family="DejaVu Sans" font-size="13" font-weight="normal" font-style="normal" fill="#6b7280" text-anchor="end">INTEGER</text>
+<rect x="1630" y="191" width="32" height="18" rx="4" fill="#1d4ed8"/>
+<text x="1646" y="205" font-family="DejaVu Sans" font-size="11" font-weight="bold" font-style="normal" fill="#ffffff" text-anchor="middle">FK</text>
+<text x="1672" y="205" font-family="DejaVu Sans" font-size="15" font-weight="normal" font-style="normal" fill="#111827" text-anchor="start">id_historico</text>
+<text x="1978" y="205" font-family="DejaVu Sans" font-size="13" font-weight="normal" font-style="normal" fill="#6b7280" text-anchor="end">INT</text>
+<text x="1672" y="232" font-family="DejaVu Sans" font-size="15" font-weight="normal" font-style="normal" fill="#111827" text-anchor="start">url_midia</text>
+<text x="1978" y="232" font-family="DejaVu Sans" font-size="13" font-weight="normal" font-style="normal" fill="#6b7280" text-anchor="end">VARCHAR(255)</text>
+<text x="1672" y="259" font-family="DejaVu Sans" font-size="15" font-weight="normal" font-style="italic" fill="#6b7280" text-anchor="start">tipo_midia ?</text>
+<text x="1978" y="259" font-family="DejaVu Sans" font-size="13" font-weight="normal" font-style="normal" fill="#6b7280" text-anchor="end">VARCHAR(10)</text>
+<rect x="64" y="644" width="370" height="208" rx="8" fill="#cbd5e1"/>
+<rect x="60" y="640" width="370" height="208" rx="8" fill="#ffffff" stroke="#1e3a5f" stroke-width="2"/>
+<rect x="60" y="640" width="370" height="38" rx="8" fill="#1e3a5f"/>
+<rect x="60" y="668" width="370" height="10" fill="#1e3a5f"/>
+<text x="245.0" y="666" font-family="DejaVu Sans" font-size="18" font-weight="bold" font-style="normal" fill="#ffffff" text-anchor="middle">Serviço</text>
+<rect x="70" y="684" width="32" height="18" rx="4" fill="#b45309"/>
+<text x="86" y="698" font-family="DejaVu Sans" font-size="11" font-weight="bold" font-style="normal" fill="#ffffff" text-anchor="middle">PK</text>
+<text x="112" y="698" font-family="DejaVu Sans" font-size="15" font-weight="bold" font-style="normal" fill="#111827" text-anchor="start">Id_servico</text>
+<text x="418" y="698" font-family="DejaVu Sans" font-size="13" font-weight="normal" font-style="normal" fill="#6b7280" text-anchor="end">INTEGER</text>
+<rect x="70" y="711" width="32" height="18" rx="4" fill="#7c3aed"/>
+<text x="86" y="725" font-family="DejaVu Sans" font-size="11" font-weight="bold" font-style="normal" fill="#ffffff" text-anchor="middle">UQ</text>
+<text x="112" y="725" font-family="DejaVu Sans" font-size="15" font-weight="normal" font-style="normal" fill="#111827" text-anchor="start">Nome_Servico</text>
+<text x="418" y="725" font-family="DejaVu Sans" font-size="13" font-weight="normal" font-style="normal" fill="#6b7280" text-anchor="end">VARCHAR(100)</text>
+<text x="112" y="752" font-family="DejaVu Sans" font-size="15" font-weight="normal" font-style="italic" fill="#6b7280" text-anchor="start">Descricao ?</text>
+<text x="418" y="752" font-family="DejaVu Sans" font-size="13" font-weight="normal" font-style="normal" fill="#6b7280" text-anchor="end">TEXT(100)</text>
+<text x="112" y="779" font-family="DejaVu Sans" font-size="15" font-weight="normal" font-style="italic" fill="#6b7280" text-anchor="start">Categoria ?</text>
+<text x="418" y="779" font-family="DejaVu Sans" font-size="13" font-weight="normal" font-style="normal" fill="#6b7280" text-anchor="end">VARCHAR(15)</text>
+<text x="112" y="806" font-family="DejaVu Sans" font-size="15" font-weight="normal" font-style="italic" fill="#6b7280" text-anchor="start">duracao_min ?</text>
+<text x="418" y="806" font-family="DejaVu Sans" font-size="13" font-weight="normal" font-style="normal" fill="#6b7280" text-anchor="end">INT</text>
+<text x="112" y="833" font-family="DejaVu Sans" font-size="15" font-weight="normal" font-style="normal" fill="#111827" text-anchor="start">Preco</text>
+<text x="418" y="833" font-family="DejaVu Sans" font-size="13" font-weight="normal" font-style="normal" fill="#6b7280" text-anchor="end">DECIMAL(10,2)</text>
+<rect x="584" y="564" width="370" height="235" rx="8" fill="#cbd5e1"/>
+<rect x="580" y="560" width="370" height="235" rx="8" fill="#ffffff" stroke="#1e3a5f" stroke-width="2"/>
+<rect x="580" y="560" width="370" height="38" rx="8" fill="#1e3a5f"/>
+<rect x="580" y="588" width="370" height="10" fill="#1e3a5f"/>
+<text x="765.0" y="586" font-family="DejaVu Sans" font-size="18" font-weight="bold" font-style="normal" fill="#ffffff" text-anchor="middle">Agendamento</text>
+<rect x="590" y="604" width="32" height="18" rx="4" fill="#b45309"/>
+<text x="606" y="618" font-family="DejaVu Sans" font-size="11" font-weight="bold" font-style="normal" fill="#ffffff" text-anchor="middle">PK</text>
+<text x="632" y="618" font-family="DejaVu Sans" font-size="15" font-weight="bold" font-style="normal" fill="#111827" text-anchor="start">ID_Agendamento</text>
+<text x="938" y="618" font-family="DejaVu Sans" font-size="13" font-weight="normal" font-style="normal" fill="#6b7280" text-anchor="end">INTEGER</text>
+<text x="632" y="645" font-family="DejaVu Sans" font-size="15" font-weight="normal" font-style="normal" fill="#111827" text-anchor="start">Data_Hora</text>
+<text x="938" y="645" font-family="DejaVu Sans" font-size="13" font-weight="normal" font-style="normal" fill="#6b7280" text-anchor="end">DATETIME</text>
+<text x="632" y="672" font-family="DejaVu Sans" font-size="15" font-weight="normal" font-style="normal" fill="#111827" text-anchor="start">status</text>
+<text x="938" y="672" font-family="DejaVu Sans" font-size="13" font-weight="normal" font-style="normal" fill="#6b7280" text-anchor="end">VARCHAR(20)</text>
+<rect x="590" y="685" width="32" height="18" rx="4" fill="#1d4ed8"/>
+<text x="606" y="699" font-family="DejaVu Sans" font-size="11" font-weight="bold" font-style="normal" fill="#ffffff" text-anchor="middle">FK</text>
+<text x="632" y="699" font-family="DejaVu Sans" font-size="15" font-weight="normal" font-style="normal" fill="#111827" text-anchor="start">ID_Servico</text>
+<text x="938" y="699" font-family="DejaVu Sans" font-size="13" font-weight="normal" font-style="normal" fill="#6b7280" text-anchor="end">INT</text>
+<rect x="582" y="708" width="366" height="25" fill="#dcfce7"/>
+<rect x="590" y="712" width="32" height="18" rx="4" fill="#1d4ed8"/>
+<text x="606" y="726" font-family="DejaVu Sans" font-size="11" font-weight="bold" font-style="normal" fill="#ffffff" text-anchor="middle">FK</text>
+<text x="632" y="726" font-family="DejaVu Sans" font-size="15" font-weight="normal" font-style="normal" fill="#111827" text-anchor="start">ID_Cliente</text>
+<text x="938" y="726" font-family="DejaVu Sans" font-size="13" font-weight="normal" font-style="normal" fill="#6b7280" text-anchor="end">INT</text>
+<rect x="590" y="739" width="32" height="18" rx="4" fill="#1d4ed8"/>
+<text x="606" y="753" font-family="DejaVu Sans" font-size="11" font-weight="bold" font-style="normal" fill="#ffffff" text-anchor="middle">FK</text>
+<text x="632" y="753" font-family="DejaVu Sans" font-size="15" font-weight="normal" font-style="normal" fill="#111827" text-anchor="start">ID_Animal</text>
+<text x="938" y="753" font-family="DejaVu Sans" font-size="13" font-weight="normal" font-style="normal" fill="#6b7280" text-anchor="end">INT</text>
+<rect x="590" y="766" width="32" height="18" rx="4" fill="#1d4ed8"/>
+<text x="606" y="780" font-family="DejaVu Sans" font-size="11" font-weight="bold" font-style="normal" fill="#ffffff" text-anchor="middle">FK</text>
+<text x="632" y="780" font-family="DejaVu Sans" font-size="15" font-weight="normal" font-style="normal" fill="#111827" text-anchor="start">ID_Profissional</text>
+<text x="938" y="780" font-family="DejaVu Sans" font-size="13" font-weight="normal" font-style="normal" fill="#6b7280" text-anchor="end">INT</text>
+<rect x="1104" y="644" width="370" height="181" rx="8" fill="#cbd5e1"/>
+<rect x="1100" y="640" width="370" height="181" rx="8" fill="#ffffff" stroke="#1e3a5f" stroke-width="2"/>
+<rect x="1100" y="640" width="370" height="38" rx="8" fill="#1e3a5f"/>
+<rect x="1100" y="668" width="370" height="10" fill="#1e3a5f"/>
+<text x="1285.0" y="666" font-family="DejaVu Sans" font-size="18" font-weight="bold" font-style="normal" fill="#ffffff" text-anchor="middle">Profissional</text>
+<rect x="1110" y="684" width="32" height="18" rx="4" fill="#b45309"/>
+<text x="1126" y="698" font-family="DejaVu Sans" font-size="11" font-weight="bold" font-style="normal" fill="#ffffff" text-anchor="middle">PK</text>
+<text x="1152" y="698" font-family="DejaVu Sans" font-size="15" font-weight="bold" font-style="normal" fill="#111827" text-anchor="start">ID_Profissional</text>
+<text x="1458" y="698" font-family="DejaVu Sans" font-size="13" font-weight="normal" font-style="normal" fill="#6b7280" text-anchor="end">INTEGER</text>
+<text x="1152" y="725" font-family="DejaVu Sans" font-size="15" font-weight="normal" font-style="normal" fill="#111827" text-anchor="start">Nome</text>
+<text x="1458" y="725" font-family="DejaVu Sans" font-size="13" font-weight="normal" font-style="normal" fill="#6b7280" text-anchor="end">VARCHAR(100)</text>
+<rect x="1110" y="738" width="32" height="18" rx="4" fill="#7c3aed"/>
+<text x="1126" y="752" font-family="DejaVu Sans" font-size="11" font-weight="bold" font-style="normal" fill="#ffffff" text-anchor="middle">UQ</text>
+<text x="1152" y="752" font-family="DejaVu Sans" font-size="15" font-weight="normal" font-style="normal" fill="#111827" text-anchor="start">CRMV</text>
+<text x="1458" y="752" font-family="DejaVu Sans" font-size="13" font-weight="normal" font-style="normal" fill="#6b7280" text-anchor="end">VARCHAR(20)</text>
+<text x="1152" y="779" font-family="DejaVu Sans" font-size="15" font-weight="normal" font-style="italic" fill="#6b7280" text-anchor="start">Especialidade ?</text>
+<text x="1458" y="779" font-family="DejaVu Sans" font-size="13" font-weight="normal" font-style="normal" fill="#6b7280" text-anchor="end">VARCHAR(50)</text>
+<text x="1152" y="806" font-family="DejaVu Sans" font-size="15" font-weight="normal" font-style="italic" fill="#6b7280" text-anchor="start">Telefone ?</text>
+<text x="1458" y="806" font-family="DejaVu Sans" font-size="13" font-weight="normal" font-style="normal" fill="#6b7280" text-anchor="end">VARCHAR(20)</text>
+<rect x="1620" y="330" width="380" height="330" rx="8" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+<text x="1636" y="360" font-family="DejaVu Sans" font-size="17" font-weight="bold" font-style="normal" fill="#1e3a5f" text-anchor="start">Legenda</text>
+<line x1="1640" y1="392" x2="1730" y2="392" stroke="#334155" stroke-width="2"/>
+<line x1="1650" y1="401" x2="1650" y2="383" stroke="#334155" stroke-width="2"/>
+<line x1="1656" y1="401" x2="1656" y2="383" stroke="#334155" stroke-width="2"/>
+<line x1="1712" y1="392" x2="1730" y2="403" stroke="#334155" stroke-width="2"/>
+<line x1="1712" y1="392" x2="1730" y2="392" stroke="#334155" stroke-width="2"/>
+<line x1="1712" y1="392" x2="1730" y2="381" stroke="#334155" stroke-width="2"/>
+<circle cx="1704" cy="392" r="6" fill="#ffffff" stroke="#334155" stroke-width="2"/>
+<text x="1744" y="397" font-family="DejaVu Sans" font-size="13" font-weight="normal" font-style="normal" fill="#1f2937" text-anchor="start">1 (obrigatório) : 0..N</text>
+<line x1="1640" y1="427" x2="1730" y2="427" stroke="#334155" stroke-width="2" stroke-dasharray="8,5"/>
+<line x1="1650" y1="436" x2="1650" y2="418" stroke="#334155" stroke-width="2"/>
+<circle cx="1664" cy="427" r="6" fill="#ffffff" stroke="#334155" stroke-width="2"/>
+<line x1="1712" y1="427" x2="1730" y2="438" stroke="#334155" stroke-width="2"/>
+<line x1="1712" y1="427" x2="1730" y2="427" stroke="#334155" stroke-width="2"/>
+<line x1="1712" y1="427" x2="1730" y2="416" stroke="#334155" stroke-width="2"/>
+<circle cx="1704" cy="427" r="6" fill="#ffffff" stroke="#334155" stroke-width="2"/>
+<text x="1744" y="432" font-family="DejaVu Sans" font-size="13" font-weight="normal" font-style="normal" fill="#1f2937" text-anchor="start">0..1 (opcional) : 0..N</text>
+<line x1="1640" y1="462" x2="1730" y2="462" stroke="#15803d" stroke-width="2"/>
+<line x1="1650" y1="471" x2="1650" y2="453" stroke="#15803d" stroke-width="2"/>
+<line x1="1656" y1="471" x2="1656" y2="453" stroke="#15803d" stroke-width="2"/>
+<line x1="1712" y1="462" x2="1730" y2="473" stroke="#15803d" stroke-width="2"/>
+<line x1="1712" y1="462" x2="1730" y2="462" stroke="#15803d" stroke-width="2"/>
+<line x1="1712" y1="462" x2="1730" y2="451" stroke="#15803d" stroke-width="2"/>
+<circle cx="1704" cy="462" r="6" fill="#ffffff" stroke="#15803d" stroke-width="2"/>
+<text x="1744" y="467" font-family="DejaVu Sans" font-size="13" font-weight="normal" font-style="normal" fill="#1f2937" text-anchor="start">relacionamento novo (v2)</text>
+<rect x="1640" y="490" width="32" height="18" rx="4" fill="#b45309"/>
+<text x="1656" y="504" font-family="DejaVu Sans" font-size="11" font-weight="bold" font-style="normal" fill="#ffffff" text-anchor="middle">PK</text>
+<text x="1684" y="504" font-family="DejaVu Sans" font-size="13" font-weight="normal" font-style="normal" fill="#1f2937" text-anchor="start">chave primária</text>
+<rect x="1640" y="518" width="32" height="18" rx="4" fill="#1d4ed8"/>
+<text x="1656" y="532" font-family="DejaVu Sans" font-size="11" font-weight="bold" font-style="normal" fill="#ffffff" text-anchor="middle">FK</text>
+<text x="1684" y="532" font-family="DejaVu Sans" font-size="13" font-weight="normal" font-style="normal" fill="#1f2937" text-anchor="start">chave estrangeira</text>
+<rect x="1640" y="546" width="32" height="18" rx="4" fill="#7c3aed"/>
+<text x="1656" y="560" font-family="DejaVu Sans" font-size="11" font-weight="bold" font-style="normal" fill="#ffffff" text-anchor="middle">UQ</text>
+<text x="1684" y="560" font-family="DejaVu Sans" font-size="13" font-weight="normal" font-style="normal" fill="#1f2937" text-anchor="start">valor único</text>
+<rect x="1640" y="576" width="32" height="18" fill="#dcfce7" stroke="#86efac"/>
+<text x="1684" y="590" font-family="DejaVu Sans" font-size="13" font-weight="normal" font-style="normal" fill="#1f2937" text-anchor="start">coluna nova (v2)</text>
+<text x="1640" y="620" font-family="DejaVu Sans" font-size="13" font-weight="normal" font-style="italic" fill="#6b7280" text-anchor="start">nome ?</text>
+<text x="1700" y="620" font-family="DejaVu Sans" font-size="13" font-weight="normal" font-style="normal" fill="#1f2937" text-anchor="start">coluna opcional (aceita NULL)</text>
+<text x="60" y="900" font-family="DejaVu Sans" font-size="17" font-weight="bold" font-style="normal" fill="#1e3a5f" text-anchor="start">Regras de integridade</text>
+<text x="60" y="930" font-family="DejaVu Sans" font-size="14" font-weight="normal" font-style="normal" fill="#334155" text-anchor="start">• Agendamento (ID_Animal, ID_Cliente) → Animal (ID_animal, ID_cliente): o cliente do agendamento deve ser o tutor do animal.</text>
+<text x="60" y="956" font-family="DejaVu Sans" font-size="14" font-weight="normal" font-style="normal" fill="#334155" text-anchor="start">• Historico_saude (ID_Agendamento, ID_animal) → Agendamento (ID_Agendamento, ID_Animal): o histórico pertence ao mesmo animal do agendamento.</text>
+<text x="60" y="982" font-family="DejaVu Sans" font-size="14" font-weight="normal" font-style="normal" fill="#334155" text-anchor="start">• Anexo_midia pertence obrigatoriamente a um Historico_saude (coluna id_agendamento removida: o agendamento é obtido via histórico).</text>
+<text x="60" y="1008" font-family="DejaVu Sans" font-size="14" font-weight="normal" font-style="normal" fill="#334155" text-anchor="start">• Índice único parcial: um profissional não pode ter dois agendamentos no mesmo Data_Hora (exceto status 'Cancelado').</text>
+</svg>
